@@ -2241,10 +2241,19 @@
 			display: none;
 		}
 
+		/*.fa fa-music:before{*/
+		/*	size: auto;*/
+		/*	color: #8addaa;*/
+		/*}*/
+
 		.icon.style1:before {
 			color: #c3e895;
 		}
-
+		
+		.icon.style8:before {
+			color: #ff98b5;
+		}
+	
 		.icon.style2:before {
 			color: #8addaa;
 		}
@@ -2801,9 +2810,10 @@
 		background-color: #fff;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("../../images/header.jpg");
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("../../images/boreum_back.jpg");
+		background-repeat: no-repeat;
+		background-position: top right,						center center,					center center;
+		background-size:  cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
